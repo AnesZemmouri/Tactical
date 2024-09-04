@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="css/main.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <title>Tactical</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-darkteal">
+      <div class="container">
+        <a
+          class="navbar-brand text-uppercase d-flex align-items-center"
+          href="index.html"
+        >
+          <i class="bx bx-football fs-2 me-2"></i>Tactical</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#packages">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tacticalConcepts">Tactical Concepts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">Case Studies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- carousel -->
+    <section id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img
+            src="/assets/zidanersz.jpg"
+            class="d-block w-100 c-img"
+            alt="..."
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="fs-3 mt-5 text-uppercase">
+              Tactical Innovators in Football
+            </p>
+            <h1 class="display-1 fw-bolder text-capitalize">
+              Masterminds of the Game
+            </h1>
+            <button
+              type="button"
+              class="btn btn-darkteal px-4 py-2 fs-5 mt-5"
+              data-bs-toggle="modal"
+              data-bs-target="#booking-modal"
+            >
+              Discover Legacy
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img
+            src="/assets/rsz_3pep.jpg"
+            class="d-block w-100 c-img"
+            alt="..."
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="fs-3 mt-5 text-uppercase">
+              The Visionaries Behind the Greatest Teams
+            </p>
+            <h1 class="display-1 fw-bolder text-capitalize">
+              Architects of Victory
+            </h1>
+            <button
+              type="button"
+              class="btn btn-darkteal px-4 py-2 fs-5 mt-5"
+              data-bs-toggle="modal"
+              data-bs-target="#booking-modal"
+            >
+              Discover Legacy
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img
+            src="/assets/rsz_1klopp.jpg"
+            class="d-block w-100 c-img"
+            alt="..."
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="fs-3 mt-5 text-uppercase">
+              Football’s Tactical Revolutionaries
+            </p>
+            <h1 class="display-1 fw-bolder text-capitalize">
+              Pioneers of Strategy
+            </h1>
+            <button
+              type="button"
+              class="btn btn-darkteal px-4 py-2 fs-5 mt-5"
+              data-bs-toggle="modal"
+              data-bs-target="#booking-modal"
+            >
+              Discover Legacy
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#hero-carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#hero-carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    <section class="py-5 bg-lightgrey">
+      <h2
+        class="text-center text-capitalize my-5 fw-bolder"
+        id="tacticalConcepts"
+      >
+        Tactical concepts
+      </h2>
+      <!-- att tactics -->
+      <div class="container">
+        <h3 class="mb-4 tac fw-bolder">Attacking Tactics</h3>
+        <div class="row">
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="assets/messi.avif"
+                class="card-img-top imgs"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">
+                  <a class="crdtitle" href="">False nine</a>
+                </h5>
+                <p class="card-text">
+                  A false nine is a striker who drops deep, disrupting defenders
+                  and creating space for teammates.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card">
+              <img src="assets/pep1.jpg" class="card-img-top imgs" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">
+                  <a class="crdtitle" href="">Tiki-Taka</a>
+                </h5>
+                <p class="card-text">
+                  Short, quick passes and movement, maintaining possession to
+                  break down defenses.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="assets/mourinho.jpg"
+                class="card-img-top imgs"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">
+                  <a class="crdtitle" href="">Counter-Attack</a>
+                </h5>
+                <p class="card-text">
+                  Quick transitions from defense to attack, exploiting
+                  opponents' advanced positions after regaining possession.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- second row -->
+        <div class="row pt-5">
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="assets/danialves.jpg"
+                class="card-img-top imgs"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">
+                  <a class="crdtitle" href="">Overlapping Runs</a>
+                </h5>
+                <p class="card-text">
+                  Fullbacks and wingers create width and crossing chances by
+                  running past teammates on the flanks.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="assets/robben.jpg"
+                class="card-img-top imgs"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">
+                  <a class="crdtitle" href="">Inverted Wingers </a>
+                </h5>
+                <p class="card-text">
+                  Wingers play on the opposite flank of their stronger foot,
+                  cutting inside to shoot or create attacking opportunities.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="assets/HarryRedknapp.jpg"
+                class="card-img-top imgs"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">
+                  <a class="crdtitle" href="">Direct Play</a>
+                </h5>
+                <p class="card-text">
+                  Quickly advancing the ball upfield with long passes and fast
+                  movements, bypassing midfield.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- defensive tactics -->
+      <div class="container my-5 mt-5">
+        <h3 class="mb-5 tac fw-bolder">Defensive Tactics</h3>
+        <div class="row">
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="assets/klopp1.jpg"
+                class="card-img-top imgs"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">
+                  <a class="crdtitle" href="">High Press</a>
+                </h5>
+                <p class="card-text">
+                  An aggressive tactic where the team applies pressure high up
+                  the pitch to win possession quickly.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="assets/carlo.avif"
+                class="card-img-top imgs"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">
+                  <a class="crdtitle" href="">Man Marking vs Zonal Marking</a>
+                </h5>
+                <p class="card-text">
+                  Man-marking tracks individual opponents, while zonal marking
+                  focuses on defending specific areas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="assets/arrigo.jpg"
+                class="card-img-top imgs"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">
+                  <a class="crdtitle" href="">Offside Trap</a>
+                </h5>
+                <p class="card-text">
+                  Defenders skillfully step up as a unit to catch attackers
+                  offside and disrupt their dangerous runs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- second row -->
+        <div class="row pt-5">
+          <div class="col-lg">
+            <div class="card">
+              <img
+                src="assets/pirlo.avif"
+                class="card-img-top imgs"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">
+                  <a class="crdtitle" href="">Deep-Lying Playmaker</a>
+                </h5>
+                <p class="card-text">
+                  A midfielder positioned deep, dictating play with long passes
+                  and controlling tempo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card">
+              <img src="assets/neuer.jpg" class="card-img-top imgs" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">
+                  <a class="crdtitle" href="">Sweeper Keeper</a>
+                </h5>
+                <p class="card-text">
+                  A goalkeeper who actively participates in defense, often
+                  coming off their line to clear or intercept.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card">
+              <img src="assets/diego.jpg" class="card-img-top imgs" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">
+                  <a class="crdtitle" href="">Low Block</a>
+                </h5>
+                <p class="card-text">
+                  A compact defensive shape where players sit deep to absorb
+                  pressure and reduce space for opponents.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Key Features</h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <i class="bx bx-book fs-1 mb-3"></i>
+            <h4 class="mt-3">Comprehensive Tactical Insights</h4>
+            <p>
+              Dive into football tactics and strategies from the game's greatest
+              minds.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="bx bx-football fs-1 mb-3"></i>
+            <h4 class="mt-3">Football Expertise</h4>
+            <p>
+              Expert analysis and insights into football tactics from around the
+              world.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="bx bx-line-chart fs-1 mb-3"></i>
+            <h4 class="mt-3">Tactical Insights</h4>
+            <p>
+              Detailed breakdowns of different tactical approaches and their
+              impact on the game.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">What Our Users Say</h2>
+        <div
+          id="testimonialsCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p class="text-center">
+                "This is an amazing service. Highly recommend!" - Jack
+              </p>
+            </div>
+            <div class="carousel-item">
+              <p class="text-center">"A game-changer in the industry." - Ali</p>
+            </div>
+            <div class="carousel-item">
+              <p class="text-center">
+                "Exceptional experience from start to finish." - James
+              </p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialsCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialsCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="cta bg-primary text-white text-center py-5">
+      <div class="container">
+        <h2 class="mb-4">Ready to Get Started?</h2>
+        <p class="mb-4">Join us and start mastering football tactics today!</p>
+        <a href="#signup" class="btn btn-light btn-lg">Sign Up Now</a>
+      </div>
+    </section>
+    <section class="blog py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Latest Articles</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="assets/article1.jpg"
+                class="card-img-top"
+                alt="Article 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Article Title One</h5>
+                <p class="card-text">Short summary of the article.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="assets/article2.jpg"
+                class="card-img-top"
+                alt="Article 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Article Title Two</h5>
+                <p class="card-text">Short summary of the article.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="assets/article3.jpg"
+                class="card-img-top"
+                alt="Article 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Article Title Three</h5>
+                <p class="card-text">Short summary of the article.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="contact py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
