@@ -34,3 +34,9 @@
 .tac:hover{
 text-decoration: underline;
 }
+.pfp {
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image fits within the dimensions */
+  border-radius: 500px; /* Make the image circular */
+}
