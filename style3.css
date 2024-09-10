@@ -13,7 +13,7 @@
   text-decoration: underline;
 }
 .hero {
-  background-image: url("/assets/youngmessi1.jpg");
+  background-image: url("./assets/youngmessi1.jpg");
   height: 70vh;
   background-size: cover;
 }

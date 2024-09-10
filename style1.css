@@ -13,7 +13,7 @@
   text-decoration: underline;
 }
 .hero {
-  background-image: url("/assets/ronaldo.jpg");
+  background-image: url("./assets/ronaldo.jpg");
   height: 70vh;
   background-size: cover;
 }
