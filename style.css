@@ -33,10 +33,29 @@
 }
 .tac:hover{
 text-decoration: underline;
+cursor: pointer;
 }
 .pfp {
   width: 150px; /* Set a fixed width */
   height: 150px; /* Set a fixed height */
   object-fit: cover; /* Ensure the image fits within the dimensions */
   border-radius: 500px; /* Make the image circular */
+}
+/* Smooth transition for carousel items */
+.carousel-item {
+  transition: transform 1s ease-in-out;
+}
+
+/* Smooth scaling and fading for carousel images */
+.c-img {
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.carousel-caption {
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+/* hover effect to scale image slightly */
+.carousel-item:hover .c-img {
+  transform: scale(1.02);
 }
