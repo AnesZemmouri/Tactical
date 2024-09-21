@@ -11,3 +11,10 @@
   color: #d0e6f4; /* Bright hover color */
   text-decoration: underline;
 }
+.pepPic{
+  filter: brightness(0.7);
+}
+.image-overlay h2,
+.image-overlay h3 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adjust values as needed */
+}
